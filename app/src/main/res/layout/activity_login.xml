@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mountain"
+    tools:context="com.example.kamrul.studentlistproject.LoginActivity">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/user"
+    android:textColorHint="#fff"
+    android:background="#4d62b9"
+    android:id="@+id/username"
+    android:layout_marginTop="20dp"
+    android:hint="User name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/password"
+        android:textColorHint="#fff"
+        android:background="#4d62b9"
+        android:id="@+id/userPassword"
+        android:layout_marginTop="20dp"
+
+        android:hint="User Password"/>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/mybutton"
+    android:text="Login"
+    android:textSize="30dp"
+    android:padding="10dp"
+    android:textStyle="bold"
+    android:textColor="#fff"
+    android:onClick="login"
+    android:layout_marginTop="20dp"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:layout_gravity="end"
+        android:textColor="#a31c6a"
+        android:onClick="goSignup"
+        android:layout_marginTop="10dp"
+        android:text="@string/signUp"/>
+</LinearLayout>

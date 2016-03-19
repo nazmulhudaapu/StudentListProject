@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:background="@drawable/sky"
+    tools:context="com.example.kamrul.studentlistproject.SignupActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go show"
+        android:onClick="goshow"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/namelogo"
+        android:background="#9375ff"
+        android:id="@+id/name"
+        android:hint="Enter Your Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/namelogo"
+        android:background="#9375ff"
+        android:id="@+id/email"
+        android:textColorHint="#fff"
+        android:hint="Enter Your Email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:layout_marginTop="20dp"
+        android:inputType="phone"
+        android:drawableLeft="@drawable/namelogo"
+        android:background="#9375ff"
+        android:id="@+id/phone"
+        android:hint="Enter Your Phone No"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/namelogo"
+        android:background="#9375ff"
+        android:id="@+id/address"
+        android:hint="Enter Your Address"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/namelogo"
+        android:background="#9375ff"
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:hint="Enter Your Password"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/mybutton"
+        android:text="Sign Up"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:id="@+id/save"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:onClick="doSave"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showList"></ListView>
+
+
+</LinearLayout>
